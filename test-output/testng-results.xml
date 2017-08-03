@@ -1,11 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6" started-at="2017-08-03T02:56:02Z" finished-at="2017-08-03T02:56:02Z">
+  <suite name="Default suite" duration-ms="19182" started-at="2017-08-03T03:16:18Z" finished-at="2017-08-03T03:16:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6" started-at="2017-08-03T02:56:02Z" finished-at="2017-08-03T02:56:02Z">
+    <test name="Default test" duration-ms="19182" started-at="2017-08-03T03:16:18Z" finished-at="2017-08-03T03:16:37Z">
+      <class name="dudu.jingjing.TestDataByCSVFile">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dudu.jingjing.TestDataByCSVFile@5c3bd550]" name="beforeMethod" is-config="true" duration-ms="3359" started-at="2017-08-03T11:16:18Z" finished-at="2017-08-03T11:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dudu.jingjing.TestDataByCSVFile@5c3bd550]" name="testSearch" duration-ms="3898" started-at="2017-08-03T11:16:21Z" data-provider="searchData" finished-at="2017-08-03T11:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ll]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dudu.jingjing.TestDataByCSVFile@5c3bd550]" name="afterMethod" is-config="true" duration-ms="958" started-at="2017-08-03T11:16:25Z" finished-at="2017-08-03T11:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dudu.jingjing.TestDataByCSVFile@5c3bd550]" name="beforeMethod" is-config="true" duration-ms="2545" started-at="2017-08-03T11:16:26Z" finished-at="2017-08-03T11:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dudu.jingjing.TestDataByCSVFile@5c3bd550]" name="testSearch" duration-ms="7590" started-at="2017-08-03T11:16:28Z" data-provider="searchData" finished-at="2017-08-03T11:16:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dudu.jingjing.TestDataByCSVFile@5c3bd550]" name="afterMethod" is-config="true" duration-ms="789" started-at="2017-08-03T11:16:36Z" finished-at="2017-08-03T11:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- dudu.jingjing.TestDataByCSVFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
