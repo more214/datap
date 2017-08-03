@@ -1,19 +1,18 @@
 package dudu.jingjing;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import java.util.Collection;
 
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-@RunWith(Parameterized.class)
 public class DataUser {
 
 	private String name;
@@ -25,13 +24,13 @@ public class DataUser {
 		this.password = password;
 	}
 
-	@Parameters
+	@DataProvider(name="searchData") 
 	public static Collection<String[]> readData() {
-		return DataPare.getFile(System.getProperty("user.dir") + "/datadoc/datain.cvs");
+		return DataPare.getFile("C:\\Users\\jackie\\workspace\\jingjing\\datadoc\\datain.csv");
 	}
 
-	@Test
-	public void outData() {
+	@Test(dataProvider="searchData")  
+	public void outData(String name,String password) {
 		System.out.println(name + "----:" + password);
 	}
 
