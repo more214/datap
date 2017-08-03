@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="dudu.jingjing.NewTest" duration-ms="37" started-at="2017-08-03T01:46:50Z" finished-at="2017-08-03T01:46:50Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="37" started-at="2017-08-03T01:46:50Z" finished-at="2017-08-03T01:46:50Z">
+      <class name="dudu.jingjing.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="beforeTest" is-config="true" duration-ms="13" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="h()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="h" duration-ms="2" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- h -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="k()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="k" duration-ms="0" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- k -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="p()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="p" duration-ms="0" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:dudu.jingjing.NewTest@64616ca2]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-08-03T09:46:50Z" finished-at="2017-08-03T09:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- dudu.jingjing.NewTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- dudu.jingjing.NewTest -->
+</testng-results>

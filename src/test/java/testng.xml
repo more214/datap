@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="dudu.jingjing.NewTest1"/>
+      <class name="dudu.jingjing.NewTest"/>
+      <class name="dudu.jingjing.DataUser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
